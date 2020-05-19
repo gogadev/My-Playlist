@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap");
+
+nav {
+  text-align: center;
+  margin: 0.3rem auto;
+  font-family: "Herr Von Muellerhoff", cursive;
+}
+
+.title {
+  font-size: 2.5rem;
+  letter-spacing: 20px;
+  padding: 0.2rem;
+  margin: 0.3rem auto;
+  color: grey;
+  transform: skewX(-10deg);
+}
+
+.title span {
+  color: rgb(228, 200, 129);
+}
+
+.image {
+  width: 81%;
+  background: #f6f6f6;
+  border-top: 4px solid lightgoldenrodyellow;
+  border-bottom: 4px solid lightgrey;
+  margin: 0 auto;
+}
+
+.nav-img {
+  width: 20%;
+}

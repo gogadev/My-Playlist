@@ -1,0 +1,63 @@
+.music-form {
+  width: 80vw;
+  border: 3px double lightgrey;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.the-title {
+  margin-bottom: 1rem;
+  width: 79.5vw;
+  background: lightgoldenrodyellow;
+  border-bottom: 2px solid lightgrey;
+  font-size: 1.6rem;
+  letter-spacing: 15px;
+  padding: 0.2rem;
+  color: goldenrod;
+  font-family: "Herr Von Muellerhoff", cursive;
+}
+
+.form {
+  width: 100%;
+  display: grid;
+}
+
+.form input {
+  margin: 0.5rem auto;
+  width: 60%;
+  font-size: 1.4rem;
+  text-align: center;
+  border: 0;
+  border-bottom: 1px solid goldenrod;
+  padding: 0.1rem;
+  outline: lightgrey;
+  letter-spacing: 4px;
+}
+
+.form label {
+  letter-spacing: 4px;
+  font-size: 1.1rem;
+  margin: 0.3rem auto;
+}
+
+.btn {
+  background: lightgoldenrodyellow;
+  border: none;
+  border-top: 2px solid lightgrey;
+  padding: 0.3rem;
+  border-bottom: 2px solid lightgrey;
+  width: 30%;
+  margin: 0.5rem auto;
+  font-size: 1.2rem;
+  letter-spacing: 8px;
+  color: goldenrod;
+  cursor: pointer;
+  transition: all 1.5s ease;
+}
+
+.btn:hover {
+  transform: scaleY(0.8);
+}
